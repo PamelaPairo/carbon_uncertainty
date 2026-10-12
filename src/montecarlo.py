@@ -1,6 +1,7 @@
 import pandas as pd
 import unicodedata
 import numpy as np
+from distributions import *
 
 def simular_montecarlo(
     df: pd.DataFrame,
