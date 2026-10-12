@@ -5,7 +5,7 @@ import numpy as np
 def graficar_sensibilidad(
     tabla_sens: pd.DataFrame,
     top_n: int = 10,
-    path: str = "C:/Users/Pame/Desktop/carbon_uncertainty/outs/sensibilidad_incertidumbre.png",
+    path: str = "C:/Users/Pame/Desktop/carbon_uncertainty/results/sensibilidad_incertidumbre.png",
 ):
     """Barras horizontales con las actividades que más aportan a la
     incertidumbre del total. Guarda un PNG para usar en slides/póster."""
@@ -28,7 +28,7 @@ def graficar_comparacion_metodos(
     resumen_tier1: dict,
     resumen_mc_naive: dict,
     resumen_mc_corr: dict,
-    path: str = "C:/Users/Pame/Desktop/carbon_uncertainty/outs/comparacion_metodos.png",
+    path: str = "C:/Users/Pame/Desktop/carbon_uncertainty/results/comparacion_metodos.png",
 ):
     """
     Compara la incertidumbre del TOTAL del inventario según tres
